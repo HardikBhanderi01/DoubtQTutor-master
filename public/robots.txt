@@ -1,0 +1,5 @@
+
+User-agent: *
+allow:
+
+Sitemap: https://tutor.doubtq.com/sitemap.xml

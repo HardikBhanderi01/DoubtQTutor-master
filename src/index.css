@@ -1,0 +1,110 @@
+.BackToUp.w-back-to-up {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s linear 0s, opacity 0.3s linear 0s;
+  cursor: pointer;
+  user-select: none;
+  float: right;
+  z-index: 999;
+  width: 35px;
+  height: 35px;
+}
+
+
+body {
+  /* font-family: 'Euclid Circular'; */
+  /* margin: 0; */
+}
+
+.navbar {
+  position: relative;
+  z-index: 999;
+  /* height: 62px; */
+  /* width: 100%; */
+  /* background-color: #ccc; */
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  padding: 40px 20px;
+}
+
+/*Answernow Start*/
+.ql-toolbar.ql-snow+.ql-container.ql-snow {
+  border-top: 0px;
+  height: 200px;
+}
+
+/*Answernow End*/
+
+/*Postingstreak Start*/
+td.postingstreak-table {
+  width: 400px;
+}
+
+/* .progress-bar.wow.fadeInLeft {
+  width: 25%;
+  visibility: visible;
+  animation-duration: 0.5s;
+  animation-delay: 0.3s;
+  animation-name: fadeInLeft;
+} */
+/*Postingstreak End*/
+
+/* Referralhistory btn css */
+.refhistorybtn {
+  width: 73%;
+}
+
+/*End*/
+
+.transparent-btn {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ComingSoon page */
+h1.title.text-center.mb--10.mt-4 {
+  color: #b42cea;
+  font-size: 9rem;
+  text-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top-ref {
+  top: 100px;
+}
+
+/* Exam popup dic Start  */
+.exam-popup-dic {
+  text-align: justify;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Exam popup dic End  */
+
+
+/* copyfooter Start */
+.copyfooter {
+  position: relative;
+  display: flex;
+  height: 300px;
+  align-items: end;
+  justify-content: center;
+}
+
+.footer-border {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+}
+
+/* copyfooter End */
